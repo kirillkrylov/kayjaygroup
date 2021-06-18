@@ -1,37 +1,27 @@
-.watsapp-button{
-	position: fixed;
-	top: 50%;	
-	left: 50%;
-	margin-top: -50px;
-	margin-left: -100px;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	width: 33.33%;
+	
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+	align-items: center;
+
+  }
+
+  .title{
+	  width: 100%;
+	  text-align: center;
+	  font-size: 5em;
+	  margin-top: 5em;
+	  margin-bottom: 1em;
+  }
+
+div,a,img {
+	text-align:center
 }
-
-.watsapp-button img {
-	width: 100px;
-}
-
-.facebook-button{
-	position: fixed;
-	top: 50%;	
-	left: 50%;
-	margin-top: -75px;
-	margin-left: -350px;
-}
-
-.facebook-button img {
-	width: 150px;
-}
-
-
-.telegram-button{
-	position: fixed;
-	top: 50%;	
-	left: 50%;
-	margin-top: -50px;
-	margin-left: 120px;
-}
-
-.telegram-button img {
-	width: 100px;
-}
-
