@@ -98,9 +98,15 @@ body {
   *zoom: 1;
   *display: inline;
 }
+.title{
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
 
 .container {
-  margin: 100px auto;
+  margin: 10% auto;
 }
 
 .accordion {
